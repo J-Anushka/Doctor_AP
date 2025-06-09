@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f4f6f8;
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding-bottom: 60px; /* Space for fixed footer */
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #005792;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+  color: #005792;
+}
+
+/* Appointment List */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.appointment {
+  background-color: #f8fbfc;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #005792;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.appointment:hover {
+  background-color: #eef6fa;
+}
+
+.patient-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.time {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.auth-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+}
+
+.auth-box {
+  background-color: #ffffff;
+  padding: 40px 35px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.auth-box h2 {
+  color: #005792;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #aa4040;
+  margin-bottom: 25px;
+}
+
+.auth-box form {
+  text-align: left;
+}
+
+.auth-box label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.auth-box button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #005792;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-box button:hover {
+  background-color: #00456f;
+}
+
+.link-info {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.link-info a {
+  color: #005792;
+  text-decoration: none;
+}
+
+.link-info a:hover {
+  text-decoration: underline;
+}
+
+/* New Footer Style */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #041e43;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  border-top: 1px solid #ccc;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Doctor Appointment</title>
+  <link rel = "stylesheet" href="booking.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Book a Doctor Appointment</h1>
+    <form class="appointment-form">
+      <div>
+        <label for="name">Full Name:</label>
+        <input id="name" name="name" type="text" required />
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" required />
+      </div>
+
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input id="phone" name="phone" type="tel" required />
+      </div>
+
+      <div>
+        <label for="date">Appointment Date:</label>
+        <input id="date" name="date" type="date" required />
+      </div>
+
+      <div>
+        <label for="time">Appointment Time:</label>
+        <input id="time" name="time" type="time" required />
+      </div>
+
+      <div>
+        <label for="doctor">Select Doctor:</label>
+        <select id="doctor" name="doctor" required>
+          <option value="">-- Select --</option>
+          <option value="dr_smith">Dr. Smith (Cardiologist)</option>
+          <option value="dr_jones">Dr. Jones (Dentist)</option>
+          <option value="dr_rao">Dr. Rao (Dermatologist)</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="notes">Additional Notes:</label>
+        <textarea id="notes" name="notes" rows="3"></textarea>
+      </div>
+
+        <div> 
+              <a href="confirmation.html">
+              <button type="button">Book Appointment</button>
+             </a>
+        </div>
+
+    </form>
+  </div>
+</body>
+</html> 

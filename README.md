@@ -45,6 +45,17 @@ JavaScript (ES6)
 LocalStorage (Web Storage API)
 _____________________________________________________________________________________________________________________________
 Preview
+
+The page visible to user
+
+![image](https://github.com/user-attachments/assets/0d73df73-4e0c-4c63-9a61-73bc958bc168)
+![image](https://github.com/user-attachments/assets/33b06540-256c-4bce-acd9-6be188fba69d)
+![image](https://github.com/user-attachments/assets/1d804c0e-139d-4acb-95d2-a19828fe2f61)
+![image](https://github.com/user-attachments/assets/4d1c5dfe-7752-49de-b3bd-06a711ca9176)
+![image](https://github.com/user-attachments/assets/ca55351c-8010-4139-9ff6-06f298329a78)
+
+The page visible to Doctor
+
 ![image](https://github.com/user-attachments/assets/9870b1bd-448f-485c-a0c8-9dcbc422130c)
 ![image](https://github.com/user-attachments/assets/c494a28f-03ff-4aed-92a7-53d6f7ece290)
 
